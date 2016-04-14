@@ -29,6 +29,9 @@
 
 # VPS 相关:
 
+### [VPS 玩法](/vps/vps-try):
+各种vps的用途
+
 ### [hexo 相关](/vps/blog):
 博客相关
 
