@@ -53,11 +53,41 @@ root@yourvps:~# sudo su -l <username>
 <username>@yourvps:~$ ssh-keygen -t rsa
 ```
 #### 6.SCP 下载私钥
+在本地执行
 ```bash
 scp -r -P <设定的端口> <username>@<vps-ip>:<远程文件位置> <本地存放位置>
 # 我的示例:
- scp -r -P 24635 root@191.101.13.248:/home/abirdcfly/.ssh ~/sshssh
+scp -r -P 24635 root@191.101.13.248:/home/abirdcfly/.ssh ~/sshssh
 ```
+#### 7.安装公钥
+```bash
+<username>@yourvps:~$ cd .ssh
+<username>@yourvps:~$ cat id_rsa.pub >> authorized_keys
+<username>@yourvps:~$ chmod 600 authorized_keys
+<username>@yourvps:~$ chmod 700 ~/.ssh
+```
+#### 8.打开密钥登录功能
+```bash
+<username>@yourvps:~$ sudo vim /etc/ssh/sshd_config
+# 将RSAAuthentication yes前的注释去掉
+# 将PubkeyAuthentication yes前的注释去掉
+```
+#### 9.本地密钥登陆尝试
+远程主机输入`exit`即可退出SSH.
+在本地命令行
+```bash
+vim ~/.ssh/config
+```
+改为如下配置:
+```bash
+Host vps              
+    HostName <vps ip> 
+    Port <vps port>        
+    User <登陆用户名>    
+    IdentityFile <私钥文件地址>
+    IdentitiesOnly yes
+```
+以后每次登陆只需要`ssh vps`即可.
 
 ### 图形化 / VPS 面板
 如果你不是想折腾,或者是新手,可以装一个图形面板.大概类似下面这种:
