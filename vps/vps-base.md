@@ -89,6 +89,15 @@ Host vps
 ```
 以后每次登陆只需要`ssh vps`即可.
 
+#### 10.修改远程登陆选项,增强安全性
+```bash
+<username>@yourvps:~$ sudo vim /etc/ssh/sshd_config
+# 禁用ROOT用户登陆 PermitRootLogin no
+# 禁用密码登陆 ChallengeResponseAuthentication no
+# PasswordAuthentication no
+# UsePAM no
+```
+重启ssh服务.`service ssh restart`
 ### 图形化 / VPS 面板
 如果你不是想折腾,或者是新手,可以装一个图形面板.大概类似下面这种:
 [[/vps/pic/vpsmb.jpg]]
