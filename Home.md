@@ -3,4 +3,4 @@
 
 ***
 Python 相关:
-[Question](python/question.md) 现在解释不了的问题.
+[Question](/wiki/python/question.md) 现在解释不了的问题.
