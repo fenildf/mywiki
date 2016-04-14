@@ -4,12 +4,15 @@
 这个我不用说,网上全是这些方面的东西.鼓励你用他的链接购买呗.大家都能有优惠码可拿.好吧.我也发一个我的注册链接好了:
 []().通过这个链接来注册,你有优惠拿,我也有优惠拿.双赢.
 
-#＃ 第一次使用.
+## 第一次使用.
 购买成功后,注意你的注册邮箱.会收到Host1Plus给你的SSH 连接地址与密码.
 ### SSH使用
 [Ubuntu SSH使用](http://vv15.pbhz.com/2010/11/ubuntu-ssh-vps/)
+
 [阮一峰的网络日志 : SSH 原理与运用（一）：远程登录](http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html) 阮老师的文章强烈推荐.
+
 [SSH Tricks](https://serversforhackers.com/ssh-tricks)
+
 会给你发一封邮件,格式如下:
 
     Hostname: aaaaa
@@ -37,7 +40,11 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 
 ### 教程
 [VPS 教程系列：Ubuntu + LAMP + Nginx + WordPress 配置使用](https://ttt.tt/92/)
+
 [VPS是什么？VPS怎么用？VPS教程（适合新手入门）](http://vv15.pbhz.com/2011/03/vps/)
+
 [vps新手入门全攻略：基础知识，选购，配置环境，日常管理及精品vps主机商推荐](http://www.path8.net/tn/archives/5370)
+
 [VPS环境搭建详解 (Virtualenv+Gunicorn+Supervisor+Nginx)](http://beiyuu.com/vps-config-python-vitrualenv-flask-gunicorn-supervisor-nginx/) Python环境搭建.实用.
+
 [VPS管理百科](http://www.bootf.com/)
