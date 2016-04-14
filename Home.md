@@ -13,3 +13,7 @@
 
 [Linux 命令](/linux/terminal-bash):命令总结之类
 
+# SQL 相关:
+
+[基础SQL语句](/sql/sql-query):基础SQL语句整理.
+
