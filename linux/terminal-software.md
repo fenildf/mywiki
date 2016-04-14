@@ -1,7 +1,8 @@
 # 命令行软件
 
 ## htop : 交互式进程管理
-![htop](/resources/htop.png)
+
+[[/pic/htop.png]]
 ## Neofetch : 漂亮的系统信息显示脚本
 ![Neofetch](/resources/Neofetch.png)
 ## tree 树形展示目录
