@@ -11,3 +11,5 @@
 [A tmux Primer](https://danielmiessler.com/study/tmux/)
 
 [Basic tmux Tutorial - Windows, Panes, and Sessions over SSH](https://www.youtube.com/watch?v=BHhA_ZKjyxo)
+
+[Tmux - Linux从业者必备利器](http://cenalulu.github.io/linux/tmux/)
