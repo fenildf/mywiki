@@ -1,7 +1,11 @@
-这些问题可能需要读源码了.
+这些问题可能需要读源码了.    
+
 # blog 里那个257的问题
-# "hi there %s" % (name,)   # supply the single argument as a single-item tuple
+
+# 元祖逗号
+"hi there %s" % (name,)   # supply the single argument as a single-item tuple
 是当做元祖了吗?两个地方的说法不一样.
+
 # 解释:
 ```python
 a = [1,2,3]
@@ -9,6 +13,7 @@ a[1:1] = [7]
 print a
 # [1,7,2,3]
 ```
+
 # 解释:
 ```python
 >>> u'hah' == 'hah'
