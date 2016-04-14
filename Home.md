@@ -5,18 +5,22 @@
 
 # Python 相关:
 
-[问题](/python/question):现在解释不了的问题.
+### [问题](/python/question):
+现在解释不了的问题.
 
-[小技巧](/python/python-tips):了解到的一些代码小技巧
+### [小技巧](/python/python-tips):
+了解到的一些代码小技巧
 
 # Linux 相关:
 
-[Linux 命令](/linux/terminal-bash):命令总结之类
+### [Linux 命令](/linux/terminal-bash):
+命令总结之类
 
-[命令行基础](/linux/terminal-base)
+### [命令行基础](/linux/terminal-base)
 
 
 # SQL 相关:
 
-[基础SQL语句](/sql/sql-query):基础SQL语句整理.
+### [基础SQL语句](/sql/sql-query):
+基础SQL语句整理.
 
