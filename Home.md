@@ -5,8 +5,7 @@
 
 # Python 相关:
 
-### [问题](/python/question):
-现在解释不了的问题.
+### [问题](/python/question):### 现在解释不了的问题.
 
 ### [小技巧](/python/python-tips):
 了解到的一些代码小技巧
