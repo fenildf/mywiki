@@ -5,7 +5,8 @@
 
 # Python 相关:
 
-### [问题](/python/question):### 现在解释不了的问题.
+### [问题](/python/question):
+现在解释不了的问题.
 
 ### [小技巧](/python/python-tips):
 了解到的一些代码小技巧
@@ -32,7 +33,7 @@
 首次登陆与安全配置
 
 ### [VPS 玩法](/vps/vps-try):
-各种vps的用途
+各种vps的用途:远程下载\vpn\tmux等
 
 ### [hexo 相关](/vps/blog):
 博客相关
