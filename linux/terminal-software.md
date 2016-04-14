@@ -4,11 +4,11 @@
 
 [[/linux/pic/htop.png]]
 ## Neofetch : 漂亮的系统信息显示脚本
-[[/pic/Neofetch.png]]
+[[/linux/pic/Neofetch.png]]
 ## tree 树形展示目录
-[[/pic/tree.png]]
+[[/linux/pic/tree.png]]
 ## cmatrix 黑客帝国 "数字雨"
-[[/pic/cmatrix.png]]
+[[/linux/pic/cmatrix.png]]
 ## pi π任意位数
 ```bash
 ➜  ~ pi 100
@@ -20,7 +20,7 @@
 1234: 2 617
 ```
 ## sl  飞奔的小火车
-[[/pic/sl.png]]
+[[/linux/pic/sl.png]]
 
 ## linuxlogo 如题
-[[/pic/linuxlogo.png]]
+[[/linux/pic/linuxlogo.png]]
