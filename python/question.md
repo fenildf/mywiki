@@ -44,9 +44,11 @@ lista = [(0,'s'),(1,'app'),(2,'77822'),(3,'id')]
 lista.sort(key=lambda x:len(x[1]))
 # 为什么 lambda x:len(x[1]) x 会=lista.items 呢?(没有这个方法..就是这个意思)?
 ```
+
 ## 阅读材料
 
-[Zhihu:Lambda 表达式有何用处？如何使用？](https://www.zhihu.com/question/20125256)
-[深入理解Lambda](http://blog.csdn.net/lemon_tree12138/article/details/50774827)
-[]()
-[]()
+[Zhihu:Lambda 表达式有何用处？如何使用？](https://www.zhihu.com/question/20125256)   
+下面的链接只是说明Lambda的用法....     
+[深入理解Lambda](http://blog.csdn.net/lemon_tree12138/article/details/50774827)    
+[Python天天美味(35) - 细品lambda](http://www.cnblogs.com/coderzh/archive/2010/04/30/python-cookbook-lambda.html)    
+[我的疑问的出处](https://www.v2ex.com/t/270878#reply9)
