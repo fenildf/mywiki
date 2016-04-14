@@ -352,11 +352,11 @@ comm 命令将逐行比较已经排序的两个文件。显示结果包括 3 列
 
 从例子出发:
 
-![diff-1](/resources/diff-1.png)
+[[/linux/pic/diff-1.png]]
 
 这是 diff 的 normal 显示格式
 
-![diff-2](/resources/diff-2.png)
+[[/linux/pic/diff-2.png]]
 
 **所有操作目的是将第一个文件变成第二个文件.**
 那么上图的含义就很好理解了:
@@ -370,8 +370,7 @@ comm 命令将逐行比较已经排序的两个文件。显示结果包括 3 列
 |d | delete|
 
 这是 diff 的 上下文 显示格式:
-
-![diff-3](/resources/diff-3.png)
+[[/linux/pic/diff-3.png]]
 
 |提示| 含义|
 |---|---|
@@ -381,7 +380,7 @@ comm 命令将逐行比较已经排序的两个文件。显示结果包括 3 列
 
 这是 diff 的 统一 显示格式:
 
-![diff-4](/resources/diff-4.png)
+[[/linux/pic/diff-4.png]]
 
 |提示| 含义|
 |---|---|
@@ -397,7 +396,7 @@ comm 命令将逐行比较已经排序的两个文件。显示结果包括 3 列
 |-R|	取消打过的补丁|
 
 用上面的例子继续:
-![patch](/resources/patch.png)
+[[/linux/pic/patch.png]]
 
 ## df = disk free 查看磁盘剩余容量
 
