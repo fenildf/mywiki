@@ -29,11 +29,35 @@ ssh root@111.111.111.111
 #### 2.改密码加普通用户...提高安全性
 创建管理员账户并设定密码
 ```bash
-useradd -s /bin/bash -mr <username>  
-adduser <username> sudo
-passwd <username>
+root@yourvps:~# useradd -s /bin/bash -mr <username>  
+root@yourvps:~# adduser <username> sudo
+root@yourvps:~# passwd <username>
 ```
-现在可以断开SSH 以`ssh <username>@IP地址 `重新登陆SSH
+现在可以断开SSH 以`ssh <username>@IP地址 `重新登陆SSH(不过你的密码很弱的话还是容易弄巧成拙= = )
+#### 3.修改SSH端口
+```bash
+root@yourvps:~# vim /etc/ssh/sshd_config
+# 将port = 22 改为一个大于1024小于65535的数字
+```
+重启SSH服务(本次服务还可用,下次需要从新端口连接)
+```bash
+root@yourvps:~# sudo service ssh restart
+```
+#### 4.切换到刚刚新建的普通用户
+```bash
+root@yourvps:~# sudo su -l <username>
+<username>@yourvps:~$ 
+```
+#### 5.生成公钥密钥
+```bash
+<username>@yourvps:~$ ssh-keygen -t rsa
+```
+#### 6.SCP 下载私钥
+```bash
+scp -r -P <设定的端口> <username>@<vps-ip>:<远程文件位置> <本地存放位置>
+# 我的示例:
+ scp -r -P 24635 root@191.101.13.248:/home/abirdcfly/.ssh ~/sshssh
+```
 
 ### 图形化 / VPS 面板
 如果你不是想折腾,或者是新手,可以装一个图形面板.大概类似下面这种:
