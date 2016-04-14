@@ -8,3 +8,5 @@
 [gollum:轻量级的wiki系统](http://www.bjt.name/2015/10/gollum):扫盲和初始化    
 
 [gollum-site:Static Site Generator for Gollum Wikis](https://github.com/dreverri/gollum-site):生成静态站点
+
+[Gollum安装(Git+Markdown+Wiki)](http://shixf.com/wiki/tools/gollum)
