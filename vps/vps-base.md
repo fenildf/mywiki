@@ -27,7 +27,7 @@ ssh root@111.111.111.111
 
 ### 图形化 / VPS 面板
 如果你不是想折腾,或者是新手,可以装一个图形面板.大概类似下面这种:
-![VPS 面板](/resources/vpsmb.jpg)
+[[/vps/pic/vpsmb.jpg]]
 
 ### 我的配置
 ```sh
