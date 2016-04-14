@@ -27,10 +27,13 @@ ssh root@111.111.111.111
 然后输入上面给你的密码.就可以进入VPS了.之后的操作与你本地 Ubuntu 操作一致.
 
 #### 2.改密码加普通用户...提高安全性
+创建管理员账户并设定密码
 ```bash
-
+useradd -s /bin/bash -mr <username>  
+adduser <username> sudo
+passwd <username>
 ```
-
+现在可以断开SSH 以`ssh <username>@IP地址 `重新登陆SSH
 
 ### 图形化 / VPS 面板
 如果你不是想折腾,或者是新手,可以装一个图形面板.大概类似下面这种:
