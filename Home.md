@@ -29,6 +29,9 @@
 
 # VPS 相关:
 
+### [VPS 基础设置](/vps/vps-base)
+基础设置和配置
+
 ### [VPS 玩法](/vps/vps-try):
 各种vps的用途
 
