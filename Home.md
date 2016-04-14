@@ -18,6 +18,8 @@
 
 ### [命令行基础](/linux/terminal-base)
 
+### [命令行软件](/linux/terminal-software)
+
 
 # SQL 相关:
 
