@@ -2,7 +2,7 @@
 
 ## htop : 交互式进程管理
 
-[[/pic/htop.png]]
+[[/linux/pic/htop.png]]
 ## Neofetch : 漂亮的系统信息显示脚本
 [[/pic/Neofetch.png]]
 ## tree 树形展示目录
