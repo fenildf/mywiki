@@ -29,5 +29,8 @@
 
 # VPS 相关:
 
+### [hexo 相关](/vps/blog):
+博客相关
+
 ### [gollum 相关](/vps/gollum)
 本页面采用的wiki系统.
