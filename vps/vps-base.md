@@ -111,7 +111,7 @@ cd ~/.
 wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 ```
 
-### 教程
+### 教程与参考链接
 [VPS 教程系列：Ubuntu + LAMP + Nginx + WordPress 配置使用](https://ttt.tt/92/)
 
 [VPS是什么？VPS怎么用？VPS教程（适合新手入门）](http://vv15.pbhz.com/2011/03/vps/)
@@ -121,3 +121,9 @@ wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master
 [VPS环境搭建详解 (Virtualenv+Gunicorn+Supervisor+Nginx)](http://beiyuu.com/vps-config-python-vitrualenv-flask-gunicorn-supervisor-nginx/) Python环境搭建.实用.
 
 [VPS管理百科](http://www.bootf.com/)
+
+[\[linux\]入手 VPS 后首先该做的事情](https://mozillazg.com/2013/01/linux-vps-first-things-need-to-do.html)
+
+[如果通过 SSH 公钥密钥方式登录VPS服务器？](http://geek100.com/2794/)
+
+[让 Linux 服务器更加安全的经验总结](https://www.hikyle.me/archives/5/)
