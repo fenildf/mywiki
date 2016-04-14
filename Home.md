@@ -26,3 +26,8 @@
 ### [基础SQL语句](/sql/sql-query):
 基础SQL语句整理.
 
+
+# VPS 相关:
+
+[gollum 相关](/vps/gollum)
+本页面采用的wiki系统.
