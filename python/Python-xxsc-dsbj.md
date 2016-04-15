@@ -5,6 +5,8 @@
 ## 来源
 [Python 学习笔记 第二版.pdf](https://raw.githubusercontent.com/qyuhen/book/master/Python%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20%E7%AC%AC%E4%BA%8C%E7%89%88.pdf)
 
+# 第一部分 基础知识
+
 ## 第一章 基本环境
 挺有用的..建议多看几遍..总结的很好.
 - 所有的内置类型对象都能从 types 模块中找到,以至于 int、long、str 这些关键字可以看做是简短别名。
@@ -291,6 +293,7 @@ async:mylogic
 async:mylogic
 ```
 - **`itertools` 库是神!!!**
+
         - chain 连接多个迭代器。
         ```python
         >>> it = chain(xrange(3), "abc")
@@ -464,3 +467,40 @@ def test(n):
 ```
 
 ## 第 9 章 装饰器
+- functools.wraps 是装饰器的装饰器,它的作用用是将原函数对象的指定属性复制给包装函数对象,默认有 __module__、__name__、__doc__,或者通过参数选择。
+- 能干嘛?
+    - AOP: 身身份验证、参数检查、异常日日志等等。
+    - Proxy: 对⺫目目标函数注入入权限管理等。
+    - Context: 提供函数级别的上下文文环境,比比如 Synchronized(func) 同步。
+    - Caching: 先检查缓存是否过期,然后再决定是否调用用⺫目目标函数。
+
+## 第 10 章 描述符
+
+## 第 11 章 元类
+```python
+class = metaclass(...)    # 元类创建类型
+instance = class(...)    # 类型创建实例
+instance.__class__ is class    # 实例的类型
+class.__class__ is metaclass   # 类型的类型
+```
+
+# 第二部分 标准库
+
+## 第 12 章 字符串
+
+### re 正则
+
+    |字符|含义|
+    |:----:|-------|
+    |\d |数字,相当于 [0-9]。|
+    |\D |非非数字字符,相当于 [^0-9]。|
+    |\s |空白字符,相当于 [ \t\r\n\f\v]。|
+    |\S |非空白字符。|
+    |\w |字母或数字,相当于 [0-9a-zA-Z]。|
+    |\W |非字母或数字。|
+    |. |任意字符。|
+    || 或。|
+    |^ |非,或者开始位置标记。|
+    |$ |结束位置标记。|
+    |\b |单词边界。|
+    |\B |非非单词边界。|
