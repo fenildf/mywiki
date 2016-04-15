@@ -216,7 +216,9 @@ byse
 ```python
 >>> re.subn(r"[a-z]+", "*", "abc,123,x")
 ('*,123,*', 2)
+```
 还可以将替换字符串改成函数,以便替换成不同的结果。
+```python
 >>> def repl(m):
 ... print m.group()
 ... return "*" * len(m.group())
