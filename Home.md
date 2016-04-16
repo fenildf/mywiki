@@ -33,6 +33,8 @@
 
 ### [命令行软件](/linux/terminal-software)
 
+### [工具类](/linux/tools)
+zsh/oh-my-zsh/tmux
 
 # SQL 相关:
 
