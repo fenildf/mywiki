@@ -11,6 +11,9 @@
 ### [小技巧](/python/python-tips):
 了解到的一些代码小技巧
 
+### [正则](/python/re)
+通用正则规则和 python 的 re 模块
+
 ## 读书笔记代码节选摘抄
 
 ### [Python学习手册第二版-读书笔记](/python/Python-xxsc-dsbj)
