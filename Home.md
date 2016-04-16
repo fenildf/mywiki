@@ -2,6 +2,8 @@
 能帮到你我也很开心.如有错误,欢迎指出!
 
 ***
+# 启蒙提纲挈领类
+[编程](/program)
 
 # Python 相关:
 
@@ -17,6 +19,10 @@
 ## 读书笔记代码节选摘抄
 
 ### [Python学习手册第二版-读书笔记](/python/Python-xxsc-dsbj)
+
+### [Python核心编程第二版-部分读书笔记](/python/Python-corepg-dsbj)
+
+### [Python 进阶-读书笔记](/python/Python-intermediate-dsbj)
 
 # Linux 相关:
 

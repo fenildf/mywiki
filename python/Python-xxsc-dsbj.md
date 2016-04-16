@@ -510,3 +510,100 @@ class.__class__ is metaclass   # 类型的类型
 ### file
 写方法不会添加任何换行字符,如必须按不同平台写入换行标记,可使用 `os.linesep`。
 ### binary
+### encoding
+### descriptor
+### tempfile
+### os.path
+
+函数  |说明
+--------|----------
+abspath|绝对路径。
+relpath |相对路径。
+realpath |符号链接的真实路径。
+normpath |将拼接的路径还原成正常样式。
+basename |文件名。以 / 结尾的路径,返回空。
+dirname|目录名。
+commonprefix|多个路径的共有父目录。
+exists |判断路径是否存在,失效符号链接返回 False。
+lexists |判断符号连接文件自身是否存在。
+expanduser |展开用户根目录 ~ 开始的路径。
+expandvars |展开路径中的环境变量。如: ${name} 或 Windows %name%。
+getatime |最后访问时间。通常指读操作。
+getmtime |最后修改时间。
+getctime |Windows 返回创建时间,Linux 返回属性更新时间。
+getsize|文件大小。
+isabs |判断是否绝对路径。
+isdir |判断是否目录。
+isfile| 判断是否文件。
+islink |判断是否符号链接。
+ismount|判断是否载入点。
+split|将路径分解成 (目录, 文件名)。
+splitext|将路径分解成 (目录/主文件名,扩展名)。
+join|拼接路径。
+
+### os
+函数|说明
+--------|----------
+chdir |修改工作目录。
+getcwd |获取工作目录。
+listdir|获取目录下所有成员,不支持递归和通配符。
+walk|深度遍历所有子目录成员。
+mkdir|创建子目录。如目标已存在,异常。
+makedirs|递归创建多级子目录。
+rmdir|删除空目录。
+removedirs|递归删除目录中所有深度子目录。如非空则抛出异常。
+remove |删除文件,如果是目录则抛出异常。
+rename |重命名。如目标目录已存在,抛出异常。如果目标是文件,覆盖。
+renames |重命名,必要的话会创建目标路径。
+chmod |修改权限。
+lchmod |修改符号文件本身。
+chown |修改拥有人。
+lchown| 修改符号文件本身。
+access |权限测试。
+link|创建硬链接。
+symlink |创建符号链接。
+readlink |获取符号链接指向的目标。
+unlink|解除链接。
+stat|获取文文件属性。
+lstat| 返回符号文件本身属性。
+utime|修改时间,参数 None 表示当前系统时间,相当于 touch 命令。
+
+### shutil
+
+函数|说明
+-------|------
+copyfile|拷贝文件内容。不包括权限等属性,且目标必须是包含文件名的路径。
+copymode|仅拷贝权限,不包括拥有人和文件内容。
+copystat|拷贝权限、时间等属性,不包括拥有人和内容。
+copy|拷贝文件,包括权限属性。覆盖已有文件,目标可以是目录。
+copy2| 拷贝文件,然后调用copystat。
+copytree| 拷贝目录树,包括权限等属性。
+rmtree|删除目录树。
+move|递归移动文件或目录树。支持跨文件系统操作。
+
+## 第 16 章 数据存储
+### serialization
+### shevle
+
+## 第 17 章 数据压缩
+## 第 18 章 格式解析
+## 第 19 章 数据加密
+## 第 20 章 操作系统
+### time
+### threading
+### multiprocessing
+### argparse
+### ctypes
+## 第 21 章 进程通信
+### subprocess
+### signal
+## 第 22 章 网络编程
+## 第 23 章 程序框架
+### cmd
+### shlex
+## 第 24 章 开发工工具
+## 第 25 章 运行行时服务
+## 第 26 章 语言言服务
+
+# 第三部分 扩展库
+## A. Fabric SSH
