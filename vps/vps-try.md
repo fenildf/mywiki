@@ -16,6 +16,8 @@
 
 [youtube : Basic tmux Tutorial - Windows, Panes, and Sessions over SSH](https://www.youtube.com/watch?v=BHhA_ZKjyxo) youtube 上一个10分钟的入门介绍 
 
+[tankywoo关于tmux的wiki](http://wiki.tankywoo.com/tool/tmux.html)
+
 [Tmux - Linux从业者必备利器](http://cenalulu.github.io/linux/tmux/)
 
 [Linux下终端利器tmux](http://kumu-linux.github.io/blog/2013/08/06/tmux/)
