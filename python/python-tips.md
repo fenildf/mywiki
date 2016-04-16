@@ -384,3 +384,40 @@ from decimal import Decimal
 print Decimal('0.1') * 3 == Decimal('0.3')  # True
 Decimal('2.675').quantize(Decimal('.01'))  # 2.68
 ```
+## 运行时(后期)绑定
+[Lexical closures in Python](http://stackoverflow.com/questions/233673/lexical-closures-in-python)
+[Gotcha: Python, scoping, and closures](https://eev.ee/blog/2011/04/24/gotcha-python-scoping-closures/)
+```python
+flist = []
+
+for i in xrange(3):
+    def func(x): return x * i
+    flist.append(func)
+
+for f in flist:
+    print f(2)  # 4,4,4
+```
+结果并不如预期.
+```python
+flist = []
+
+for i in xrange(3):
+    def func(x,i=i): return x * i
+    flist.append(func)
+
+for f in flist:
+    print f(2)  # 0,2,4
+```
+或者
+```python
+flist = []
+
+for i in xrange(3):
+    def F(i):
+        def func(x): return x * i
+        return func
+    flist.append(F(i))
+
+for f in flist:
+    print f(2)  # 4,4,4
+```
