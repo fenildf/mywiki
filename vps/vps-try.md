@@ -8,9 +8,10 @@
 [使用 SoftEther VPN Server 搭建VPN](http://www.jianshu.com/p/ea7ee822e61a)
 
 ## tmux
+
 [A tmux Primer](https://danielmiessler.com/study/tmux/)
 
-[Basic tmux Tutorial - Windows, Panes, and Sessions over SSH](https://www.youtube.com/watch?v=BHhA_ZKjyxo)
+[youtube : Basic tmux Tutorial - Windows, Panes, and Sessions over SSH](https://www.youtube.com/watch?v=BHhA_ZKjyxo) youtube 上一个10分钟的入门介绍 
 
 [Tmux - Linux从业者必备利器](http://cenalulu.github.io/linux/tmux/)
 
