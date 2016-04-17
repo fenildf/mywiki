@@ -8,3 +8,5 @@
 [Python 部落 : Python深入文章](http://python.freelycode.com/contribution/list/4)
 
 [Python 部落 : 刷题宝](http://python.freelycode.com/examination/exercise/index) 查漏补缺好选择
+
+[Visualize Python](http://pythontutor.com/visualize.html#mode=edit)可视化代码操作.
