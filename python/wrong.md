@@ -13,6 +13,8 @@ callable(1)  # False                           │
 # 4
 
 "usa13".isalnum()  # True isapha() False
+
+'www.example.com'.lstrip('cmowz.')  # 'example.com' 
 ```
 名字记差了的:
 ```python
