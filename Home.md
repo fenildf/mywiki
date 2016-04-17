@@ -64,4 +64,4 @@ zsh/oh-my-zsh/tmux
 
 # Web 相关
 ### [资源](/web/zy)
-类似于awosome 不过是自己用过的或者听说过的= =
+类似于awesome 不过是自己用过的或者听说过的= =
