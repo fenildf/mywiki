@@ -16,6 +16,9 @@
 ### [正则](/python/re)
 通用正则规则和 python 的 re 模块
 
+### [学习资源](/python/resource)
+需要经常看看的资源,初级/中级
+
 ## 读书笔记代码节选摘抄
 
 ### [Python学习手册第二版-读书笔记](/python/Python-xxsc-dsbj)
