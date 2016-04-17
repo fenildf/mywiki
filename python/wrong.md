@@ -16,6 +16,8 @@ callable(1)  # False                           │
 
 'www.example.com'.lstrip('cmowz.')  # 'example.com' 
 
+In [2]: "5"._________(10)
+Out[2]: '0000000005'   # zfill
 ```
 名字记差了的:
 ```python
