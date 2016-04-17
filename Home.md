@@ -19,6 +19,9 @@
 ### [学习资源](/python/resource)
 需要经常看看的资源,初级/中级
 
+### [错误](/python/wrong)
+记录我犯过的SB错误..错题本= =
+
 ## 读书笔记代码节选摘抄
 
 ### [Python学习手册第二版-读书笔记](/python/Python-xxsc-dsbj)
