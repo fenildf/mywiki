@@ -43,7 +43,7 @@ print C(9).x
 ...     print 'end'
 _______  # 0
 
-In [29]: "%05.2f" % 1.111                                                              │cfly/abirdcfly.github.io.git 的远程分支 master
+In [29]: "%05.2f" % 1.111
 Out[29]: '01.11'  
 ```
 名字记差了的:
