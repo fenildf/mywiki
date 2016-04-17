@@ -18,6 +18,23 @@ callable(1)  # False                           │
 
 In [2]: "5"._________(10)
 Out[2]: '0000000005'   # zfill
+
+一Python文件内容如下:
+
+class A(object):
+    attr = 4
+
+class B(A):
+
+    def __init__(self, b):
+        self.x = b
+
+class C(B):
+    x = 6
+
+print C(9).x
+
+执行该文件的结果为?  # 9
 ```
 名字记差了的:
 ```python
