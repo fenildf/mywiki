@@ -445,6 +445,9 @@ sys.path.insert(0,'path/to/your/packge')
 # 用函数也可以
 def chunks(l, n):
     """Yield successive n-sized chunks from l."""
-    for i in range(0, len(l), n):
+    for i in range(0, len(l), n):  # xrange in python 2
         yield l[i:i+n]     
+
+import pprint
+pprint.pprint(list(chunks('abcdefghigklmnopqrstuvwxyz', 3)))
 ```
