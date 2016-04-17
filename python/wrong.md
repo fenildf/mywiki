@@ -12,7 +12,7 @@ callable(1)  # False                           │
 >>> getattr(a, "c", 4)
 # 4
 
-"usa13".isalnum()  # True
+"usa13".isalnum()  # True isapha() False
 ```
 名字记差了的:
 ```python
