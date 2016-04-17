@@ -61,3 +61,7 @@ zsh/oh-my-zsh/tmux
 
 ### [gollum 相关](/vps/gollum)
 本页面采用的wiki系统.
+
+# Web 相关
+### [资源](/web/zy)
+类似于awosome 不过是自己用过的或者听说过的= =
