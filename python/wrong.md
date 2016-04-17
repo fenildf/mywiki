@@ -45,6 +45,13 @@ _______  # 0
 
 In [29]: "%05.2f" % 1.111
 Out[29]: '01.11'  
+
+本题适用Python3, 填空:
+>>>num="四"  # num=u"四" 就适用于 python 2 了
+>>>num.isdigit()
+False
+>>>num.isnumeric()
+_____  # True
 ```
 名字记差了的:
 ```python
