@@ -3,7 +3,7 @@
 ## 入门
 
 ## 提高
-[Stack Overflow]()建议按热门程度刷完10页左右
+[Stack Overflow](http://stackoverflow.com/questions/tagged/python?sort=votes&pageSize=15) 建议按votes/frequent刷完10页左右
 
 [v2ex Python版](https://www.v2ex.com/go/python)很活跃不解释
 
