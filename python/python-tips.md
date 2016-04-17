@@ -436,5 +436,9 @@ sys.path.insert(0,'path/to/your/packge')
 >>> import re 
 >>> re.findall('.{3}','abcdefghigklmnopqrstuvwxyz')  # 最后的'yz'会被丢弃
 
->>>re.findall('.{1,3}','abcdefghigklmnopqrstuvwxyz')  # 这样最后的'yz'不会被丢弃           
+>>>re.findall('.{1,3}','abcdefghigklmnopqrstuvwxyz')  # 这样最后的'yz'不会被丢弃   
+# 这里的逻辑在于正则中,不定次数的限定符总是尽可能的多匹配   
+
+>>>from more_itertools import chunked  # more_itertools 需要安装
+>>>list(chunked('abcdefghigklmnopqrstuvwxyz', 3))     
 ```
