@@ -25,4 +25,5 @@ divmod()
 enumerate
 'swapcase'
 string.digits  # s...
+global
 ```
