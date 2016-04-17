@@ -11,6 +11,8 @@ callable(1)  # False                           │
 >>> a = {"a": 1, "b":2}
 >>> getattr(a, "c", 4)
 # 4
+
+"usa13".isalnum()  # True
 ```
 名字记差了的:
 ```python
