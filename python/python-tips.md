@@ -440,5 +440,11 @@ sys.path.insert(0,'path/to/your/packge')
 # 这里的逻辑在于正则中,不定次数的限定符总是尽可能的多匹配   
 
 >>>from more_itertools import chunked  # more_itertools 需要安装
->>>list(chunked('abcdefghigklmnopqrstuvwxyz', 3))     
+>>>list(chunked('abcdefghigklmnopqrstuvwxyz', 3))
+
+# 用函数也可以
+def chunks(l, n):
+    """Yield successive n-sized chunks from l."""
+    for i in range(0, len(l), n):
+        yield l[i:i+n]     
 ```
