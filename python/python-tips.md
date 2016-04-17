@@ -421,3 +421,8 @@ for i in xrange(3):
 for f in flist:
     print f(2)  # 4,4,4
 ```
+## 插入自定义包位置
+```python
+import sys
+sys.path.insert(0,'path/to/your/packge')
+```
