@@ -24,4 +24,5 @@ Out[2]: '0000000005'   # zfill
 divmod()
 enumerate
 'swapcase'
+string.digits  # s...
 ```
