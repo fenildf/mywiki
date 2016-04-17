@@ -35,6 +35,13 @@ class C(B):
 print C(9).x
 
 执行该文件的结果为?  # 9
+
+>>> for i in range(3):
+...     print i
+...     break
+... else:
+...     print 'end'
+_______  # 0
 ```
 名字记差了的:
 ```python
