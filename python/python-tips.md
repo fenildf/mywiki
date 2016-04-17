@@ -431,7 +431,7 @@ sys.path.insert(0,'path/to/your/packge')
 [How do you split a list into evenly sized chunks in Python?](http://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks-in-python)
 [What is the most “pythonic” way to iterate over a list in chunks?](http://stackoverflow.com/questions/434287/what-is-the-most-pythonic-way-to-iterate-over-a-list-in-chunks)
 ```python
-['abcdefghigklmnopqrstuvwxyz'[i:i+3]for i in range(0,len('abcdefghigklmnopqrstuvwxyz'),3)]
+['abcdefghigklmnopqrstuvwxyz'[i:i+3]for i in xrange(0,len('abcdefghigklmnopqrstuvwxyz'),3)]
 
 >>> import re 
 >>> re.findall('.{3}','abcdefghigklmnopqrstuvwxyz')  # 最后的'yz'会被丢弃
