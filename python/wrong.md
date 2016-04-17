@@ -2,6 +2,7 @@
 
 ```python
 isinstance(type(u"haha"),basestring)  # False
+issubclass(unicode, basestring)  # True
 len(bin(5))  # 5
 callable(1)  # False                           │                                              
 直接执行一个Python文件的内置函数是?
