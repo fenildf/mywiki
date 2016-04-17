@@ -15,9 +15,11 @@ callable(1)  # False                           │
 "usa13".isalnum()  # True isapha() False
 
 'www.example.com'.lstrip('cmowz.')  # 'example.com' 
+
 ```
 名字记差了的:
 ```python
 divmod()
 enumerate
+'swapcase'
 ```
