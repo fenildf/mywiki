@@ -40,8 +40,10 @@
 ### [命令行软件](/linux/terminal-software)
 
 ### [工具类](/linux/tools)
-zsh/oh-my-zsh/tmux
+zsh / oh-my-zsh / tmux
 
+### [Ubuntu相关](/linux/ubuntu)
+配置 / 参考
 # SQL 相关:
 
 ### [基础SQL语句](/sql/sql-query):
