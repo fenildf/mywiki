@@ -24,3 +24,6 @@
 
 ## linuxlogo 如题
 [[/linux/pic/linuxlogo.png]]
+
+## Guake Terminal 好用好看的terminal
+[[/linux/pic/Guake.png]]
