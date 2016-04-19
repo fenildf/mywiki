@@ -56,7 +56,7 @@ zsh / oh-my-zsh / tmux
 首次登陆与安全配置
 
 ### [VPS 玩法](/vps/vps-try):
-各种vps的用途:远程下载\vpn\tmux等
+各种vps的用途:远程下载 \ 翻墙 \ vpn \ tmux等
 
 ### [hexo 相关](/vps/blog):
 博客相关
