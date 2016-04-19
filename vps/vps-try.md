@@ -7,6 +7,15 @@
 
 [使用 SoftEther VPN Server 搭建VPN](http://www.jianshu.com/p/ea7ee822e61a)
 
+## 翻墙
+### shadowsocks
+[shadowsocks的安装和配置--在ubuntu和ubuntu中](http://bblove.me/2015/03/09/use-ss/)
+[shadowsocks服务端和客户端的安装、配置和使用](http://mushapi.com/shadowsocks-install-config-using.html)
+[官方指导:Quick Guide](https://shadowsocks.org/en/config/quick-guide.html)
+
+想要实现ipv6翻墙.配置文件中的`server ip`设置为服务器的ipv6地址即可.实现所谓不花校园流量翻墙...
+之前还想iOS ipv6 翻墙..试了半天怎么都不行...测试半天..发现..iOS 不支持 ipv6 啊....智商被狗吃了啊...
+
 ## tmux
 
 
