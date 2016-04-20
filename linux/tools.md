@@ -16,5 +16,6 @@
 
 [Linux下终端利器tmux](http://kumu-linux.github.io/blog/2013/08/06/tmux/)
 
+记得用 tmuxinator 方便配置
 ### 问题
 [undefined method `shellescape' 解决方法](https://github.com/capistrano/capistrano/issues/360)
