@@ -17,6 +17,8 @@
 [影梭 iyingsuo.com](http://www.iyingsuo.com/)      
 [iOS9上Surge搭配Shadowsocks傻白甜教程](http://www.jianshu.com/p/de1eb844915d)     
 [如何在 VPS 上搭建 VPN 来翻墙](http://www.jianshu.com/p/2f51144c35c9)    
+[【倾力原创】史上最详尽Shadowsocks从零开始一站式翻墙教程](http://shadowsocks.blogspot.com/2015/01/shadowsocks.html)    
+
 
 想要实现ipv6翻墙.配置文件中的`server ip`设置为服务器的ipv6地址即可.实现所谓不花校园流量翻墙...
 之前还想iOS ipv6 翻墙..试了半天怎么都不行...测试半天..发现..iOS 不支持 ipv6 啊....智商被狗吃了啊...
