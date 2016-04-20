@@ -21,17 +21,3 @@
 想要实现ipv6翻墙.配置文件中的`server ip`设置为服务器的ipv6地址即可.实现所谓不花校园流量翻墙...
 之前还想iOS ipv6 翻墙..试了半天怎么都不行...测试半天..发现..iOS 不支持 ipv6 啊....智商被狗吃了啊...
 
-## tmux
-
-
-\<\<tmux productive mouse-free development\>\> 可在[此](http://uploads.mitechie.com/books/tmux_p1_1.pdf)下载到pdf版本[对应中文版](http://www.kancloud.cn/kancloud/tmux) 基本下面的东西没脱离这本书
-
-[A tmux Primer](https://danielmiessler.com/study/tmux/)
-
-[youtube : Basic tmux Tutorial - Windows, Panes, and Sessions over SSH](https://www.youtube.com/watch?v=BHhA_ZKjyxo) youtube 上一个10分钟的入门介绍 
-
-[tankywoo关于tmux的wiki](http://wiki.tankywoo.com/tool/tmux.html)
-
-[Tmux - Linux从业者必备利器](http://cenalulu.github.io/linux/tmux/)
-
-[Linux下终端利器tmux](http://kumu-linux.github.io/blog/2013/08/06/tmux/)
