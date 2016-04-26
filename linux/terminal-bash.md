@@ -13,8 +13,6 @@ echo a>>a.txt  # 追加
 ``` bash
 alias copy='cp'
 ```
-
-
 方便的把不好记的，长的命令转为好记的，短的命令。
 比如我的 `Pycharm` 打开命令就是：
 ``` bash
