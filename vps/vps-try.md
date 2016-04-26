@@ -21,7 +21,7 @@
 
 
 想要实现ipv6翻墙.配置文件中的`server ip`设置为服务器的ipv6地址即可.实现所谓不花校园流量翻墙...    
-同时监听ipv4端口与ipv6端口.可参考
+同时监听ipv4端口与ipv6端口.可参考    
 [VPS + Shadowsocks 同时监听 IPv4 和 IPv6](http://jinke.me/2015/12/20/shadowshocks.html)两个进程对我起效.只设置json对我无效= =            
 [校园网 IPv6 环境下的透明代理配置](https://wiki.mforever78.com/Server/transparent-proxy-configuration-on-ipv6.html)    
 
