@@ -19,3 +19,14 @@
 记得用 tmuxinator 方便配置
 ### 问题
 [undefined method `shellescape' 解决方法](https://github.com/capistrano/capistrano/issues/360)
+
+## vim
+[自动换行](http://979137.com/thread-45-1-1.html)
+配置每行超过 n 个字的时候 vim 自动加上换行符
+:set textwidth=n （n代表数字）
+
+设置自动换行
+:set wrap 设置自动折行
+
+设置不自动换行
+:set nowrap
