@@ -67,6 +67,7 @@ _____  # True
 # for i in a[:]: [:]是对原列表的拷贝 
 # 或者倒序删除
 # 参考链接 http://stackoverflow.com/questions/1207406/remove-items-from-a-list-while-iterating-in-python/34238688
+range()的理解,不只是生成列表,而是 start + i * step < stop 这样,理解倒序列表也就很容易了.
 ```
 ## 名字记差了的:
 ```python
