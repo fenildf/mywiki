@@ -60,4 +60,6 @@ enumerate
 'swapcase'
 string.digits  # s...
 global
+nonlocal
+startswith
 ```
