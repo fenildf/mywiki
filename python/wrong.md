@@ -52,8 +52,17 @@ Out[29]: '01.11'
 False
 >>>num.isnumeric()
 _____  # True
+
+>>> a = [1,2,3]
+>>> for i in a:
+...     # 做些判断
+...     a.remove(i)
+... 
+>>> a
+[2]  # 在循环里并不能删除列表.可以从根本上依次pop.然后判断
+
 ```
-名字记差了的:
+## 名字记差了的:
 ```python
 divmod()
 enumerate
@@ -61,5 +70,8 @@ enumerate
 string.digits  # s...
 global
 nonlocal
-startswith
+startswith  # s...
 ```
+## 老忘记
+map(function, iterable, ...)
+Apply function to every item of iterable and return a list of the results
