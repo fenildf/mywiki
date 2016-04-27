@@ -75,3 +75,9 @@ startswith  # s...
 ## 老忘记
 map(function, iterable, ...)
 Apply function to every item of iterable and return a list of the results
+
+filter(function, iterable)
+Construct a list from those elements of iterable for which function returns true. 
+
+reduce(function, iterable[, initializer])
+Apply function of two arguments cumulatively to the items of iterable, from left to right, so as to reduce the iterable to a single value.
