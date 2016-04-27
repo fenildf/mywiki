@@ -63,7 +63,10 @@ _____  # True
 # 谨慎选择在循环里删除列表元素.
 # 可以依次pop.然后判断处理
 # 可以用filter 列表解析生成新的符合要求的列表
-# 但是如果非要这么做的话  for i in a[:]: 
+# 但是如果非要这么做的话  
+# for i in a[:]: [:]是对原列表的拷贝 
+# 或者倒序删除
+# 参考链接 http://stackoverflow.com/questions/1207406/remove-items-from-a-list-while-iterating-in-python/34238688
 ```
 ## 名字记差了的:
 ```python
