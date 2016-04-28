@@ -5,6 +5,7 @@ Python 小技巧或者是语言注意点
 
 ## 时间显示
 ```
+>>> import datetime
 >>> dt = datetime.datetime.now()
 >>> 'The {1} is {0:%d}, the {2} is {0:%B}, the {3} is {0:%I:%M%p}.'.format(dt, "day", "month", "time")
 'The day is 28, the month is April, the time is 02:21PM.'
