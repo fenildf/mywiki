@@ -38,4 +38,12 @@
 /^pattern 只搜索行首出现pattern的.pattern$指行尾 (\转义)    
 找到后,n向下一个结果,N上一个结果.    
     
- 
+# ssh
+## scp 上传/下载
+```bash
+scp 本地文件 username@hostIP:上传目录
+scp username@hostIP:要下载文件目录   本地存放目录
+```
+-P port 注意是大写的P, port是指定数据传输用到的端口号.
+[更多参数信息](http://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/scp.html)
+
