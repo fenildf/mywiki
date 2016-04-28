@@ -6,6 +6,7 @@ free -m
 lsblk
 lspci | grep -i 'eth'
 ```
+[更进一步](http://www.cnblogs.com/ggjucheng/archive/2013/01/14/2859613.html)
 ## >与>>
 ```bash
 echo a>a.txt  # 覆盖
