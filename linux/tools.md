@@ -31,11 +31,11 @@
 设置不自动换行    
 :set nowrap   
 
-### 搜索
-/pattern 从光标向下搜索
-?pattern 从光标向上搜索
-/(空格)pattern(空格) 向下搜索包含pattern的所有序列(例如搜索place 会出现displace....)?同理
-/^pattern 只搜索行首出现pattern的.pattern$指行尾 (\转义)
-找到后,n向下一个结果,N上一个结果.
-
+### 搜索    
+/pattern 从光标向下搜索     
+?pattern 从光标向上搜索    
+/(空格)pattern(空格) 向下搜索包含pattern的所有序列(例如搜索place 会出现displace....)?同理    
+/^pattern 只搜索行首出现pattern的.pattern$指行尾 (\转义)    
+找到后,n向下一个结果,N上一个结果.    
+    
  
