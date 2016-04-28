@@ -1,5 +1,11 @@
 # 命令
-
+## 查看硬件信息
+```bash
+lscpu 与 cat /proc/cpuinfo 
+free -m
+lsblk
+lspci | grep -i 'eth'
+```
 ## >与>>
 ```bash
 echo a>a.txt  # 覆盖
