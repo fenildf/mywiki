@@ -3,6 +3,17 @@ Python 小技巧或者是语言注意点
 # 参考链接
 [翻译Stack Overflow](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
 
+## append()与extend()
+```
+>>> a = [i for i in xrange(1,5)]
+>>> a.append([6,7])
+>>> a
+[1, 2, 3, 4, [6, 7]]
+>>> a.extend([8,9])
+>>> a
+[1, 2, 3, 4, [6, 7], 8, 9]
+```
+
 ## 去掉换行符
 ```
 经常见到的[:-1]就是来去除换行符的.
