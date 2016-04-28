@@ -3,6 +3,12 @@ Python 小技巧或者是语言注意点
 # 参考链接
 [翻译Stack Overflow](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
 
+## 去掉换行符
+```
+经常见到的[:-1]就是来去除换行符的.
+或者rstrip()或者strip()或者strip('\n')
+```
+
 ## 时间显示
 ```
 >>> import datetime
