@@ -40,7 +40,7 @@
 ### [命令行软件](/linux/terminal-software)
 
 ### [工具类](/linux/tools)
-zsh / oh-my-zsh / tmux / vim
+zsh / oh-my-zsh / tmux / vim / ssh
 
 ### [Ubuntu相关](/linux/ubuntu)
 配置 / 参考
