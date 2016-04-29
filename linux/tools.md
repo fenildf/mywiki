@@ -49,3 +49,5 @@ scp username@hostIP:要下载文件目录   本地存放目录
 -P port 注意是大写的P, port是指定数据传输用到的端口号.
 [更多参数信息](http://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/scp.html)
 
+## 公钥私钥配置
+[利用 ssh 的用户配置文件 config 管理 ssh 会话](http://dhq.me/use-ssh-config-manage-ssh-session)
