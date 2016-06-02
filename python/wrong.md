@@ -1,5 +1,7 @@
 # Python 错题本
 
+`re.match`和`re.findall`,如果前者找不到东西,注意一下前者是从开头匹配的!
+
 ```python
 isinstance(type(u"haha"),basestring)  # False
 issubclass(unicode, basestring)  # True
