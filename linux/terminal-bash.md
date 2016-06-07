@@ -8,7 +8,7 @@ sudo modprobe psmouse #启用
 
 命令显示的同时存入文件
 ```bash
-ls | tee output.txt
+ls tee output.txt
 ```
 
 ## 查看硬件信息
