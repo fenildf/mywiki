@@ -1,4 +1,11 @@
 # 命令
+
+禁用触摸板
+```bash
+sudo rmmod psmouse
+sudo modprobe psmouse #启用
+```
+
 命令显示的同时存入文件
 ```bash
 ls | tee output.txt
