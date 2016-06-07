@@ -1,4 +1,9 @@
 # 命令
+命令显示的同时存入文件
+```bash
+ls | tee output.txt
+```
+
 ## 查看硬件信息
 ```bash
 lscpu 与 cat /proc/cpuinfo 
