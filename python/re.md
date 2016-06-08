@@ -230,6 +230,8 @@ x
 ```
 
 ## 参考资料和链接
+[python 正则表达式操作指南](http://wiki.ubuntu.org.cn/Python正则表达式操作指南)
+
 \<\<Python 学习手册 第二版\>\> Python re库代码例子
 
 \<\<精通正则表达式\>\>
