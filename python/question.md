@@ -1,4 +1,11 @@
 这些问题可能需要读源码了.    
+# requests 如何处理参数值为空的url?
+```
+arg = {"key1":"value1", "key2":"value2"}
+requests.get("http://www.baidu.com", params=arg)  # http://www.baidu.com?key1=value1&key2=value2
+```
+如何处理`http://www.baidu.com?key3&key1=value1&key2=value2`?
+当然可以字符串拼接,如何更pythonic?
 
 # remove是否实现取巧了,并没有实时对比真实值?用到了index?
 ```
