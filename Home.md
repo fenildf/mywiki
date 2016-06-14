@@ -16,6 +16,8 @@
 ### [正则](/python/re)
 通用正则规则和 python 的 re 模块
 
+### [json](/python/json)
+
 ### [学习资源](/python/resource)
 需要经常看看的资源,初级/中级
 
