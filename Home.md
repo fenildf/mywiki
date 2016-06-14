@@ -18,6 +18,8 @@
 
 ### [json](/python/json)
 
+### [logging](/python/logging)
+
 ### [学习资源](/python/resource)
 需要经常看看的资源,初级/中级
 
