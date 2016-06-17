@@ -1,11 +1,17 @@
 这些问题可能需要读源码了.
-# list 修改
+# refindall 结果的list 修改
 ```
-a = []
-for i in a:
-    if i xxxx:
-        a.remove(i)
-print a
+def test(page):
+    ids = re.findall(r'<a href="http://(.*?).html"', page)  # xxx
+    ids_t = ids[:]  # 不加这步,该如何解决?
+    for i in ids:
+        if len(i) > 22:  # 会匹配一些例外 xxx.html?xxx%xx=xx
+            ids_t.remove(i)
+            # print len(ids)
+            # print i.split(".")[0]
+            # ids.append(i.split(".")[0])
+    print ids_t
+    return list(set(ids_t))
 
 ```
 # 正则非贪婪匹配失败问题
