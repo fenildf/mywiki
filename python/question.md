@@ -1,4 +1,13 @@
 这些问题可能需要读源码了.
+# list 修改
+```
+a = []
+for i in a:
+    if i xxxx:
+        a.remove(i)
+print a
+
+```
 # 正则非贪婪匹配失败问题
 ```
 >>> re.findall(r"a(\d+)b", "a23b")
