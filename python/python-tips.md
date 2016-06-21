@@ -3,6 +3,21 @@ Python 小技巧或者是语言注意点
 # 参考链接
 [翻译Stack Overflow](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
 
+## 字符串中部分替换
+替换一对字符`str.replace('1', '2')`把1替换成2     
+替换多对,可以用`translate()`函数
+```
+from string import maketrans   
+
+intab = "aeiou"
+outtab = "12345"
+trantab = maketrans(intab, outtab)
+
+str = "this is string example....wow!!!";
+print str.translate(trantab, 'xm');
+# 将a替换成1,e替换成2....并删除x和m字符.
+```
+
 ## list中随机选择
 随机选择一个
 ```python
