@@ -44,6 +44,8 @@ Pane相关操作
 记得用 tmuxinator 方便配置     
 [tmux最佳伴侣：tmuxinator](http://zuyunfei.com/2013/08/09/tmuxinator-best-mate-of-tmux/)     
 [Specify pane percentage in tmuxinator project](http://stackoverflow.com/questions/9812000/specify-pane-percentage-in-tmuxinator-project/9976282#9976282)     
+
+配置时的pane大小配置:[http://stackoverflow.com/questions/9812000/specify-pane-percentage-in-tmuxinator-project/9976282#9976282](stackoverflow)
 ### 问题
 [undefined method `shellescape' 解决方法](https://github.com/capistrano/capistrano/issues/360)
 
