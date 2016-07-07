@@ -2,7 +2,10 @@ Python 小技巧或者是语言注意点
 
 # 参考链接
 [翻译Stack Overflow](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
-
+## 创建文件
+```
+open(filename, "w").close()
+```
 ## 字典默认值
 ```
 data.get("key","moren")  # 没有返回值会返回moren
