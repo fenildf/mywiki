@@ -1,4 +1,11 @@
 这些问题可能需要读源码了.
+# 文件名是导入库名会出错,为什么?
+```
+# requests.py
+import requests
+print requests.get("http://www.baidu.com").text
+
+```
 # refindall 结果的list 修改
 ```
 def test(page):
