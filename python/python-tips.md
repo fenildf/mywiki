@@ -2,6 +2,17 @@ Python 小技巧或者是语言注意点
 
 # 参考链接
 [翻译Stack Overflow](https://github.com/wklken/stackoverflow-py-top-qa/blob/master/contents/qa-control-flow.md)
+## 从给定目录中解析出全部文件名
+```
+import os
+def get_file_list(log_dir):
+        if not os.path.isdir(log_dir):
+            return []
+        names = os.listdir(log_dir)
+        full_names = [os.path.join(log_dir, name) for name in names]
+        return [name for name in full_names if os.path.isfile(name)]
+```
+
 ## 创建文件
 ```
 open(filename, "w").close()
